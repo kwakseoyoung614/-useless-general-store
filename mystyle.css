@@ -1,0 +1,1134 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#maincontents{
+    width: 100%;
+    align-items: center;
+}
+
+
+#header{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(242, 68, 114);
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#header span{
+    margin: 0px 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+
+#logo{
+    margin-left: -700px;
+    margin-bottom: -20px;
+}
+
+#tent{
+    width: 100vw;
+    height: 148px;
+    margin: 0px;
+    background-image: url(oj1.png);
+}
+
+#main1{
+    text-align: center;
+    background-image: url(main-image-1.png);
+    background-color: royalblue;
+    position: relative;
+    width: 100vw;
+}
+
+#img1{
+    margin: 100px
+}
+
+h1{
+    font-family: 'GmarketSansBold';
+    font-size: 28px;
+    color: white;
+    word-break: keep-all;
+
+}
+
+h2{
+    font-family: 'GmarketSansBold';
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-family: 'GmarketSansLight';
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    word-break: keep-all;
+
+}
+
+h5{
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+h4{
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 18px;
+    color: black;
+}
+
+
+#main2{
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    background-image: url(main-2-bgimg.jpg);
+    width: 100vw;
+    height: 1532px;
+
+}
+
+#img2{
+    margin-top: -100px;
+
+}
+
+
+.textbox1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.box15{
+    position: absolute;
+    margin-bottom: -1000px;;
+
+}
+
+.box16{
+    position: absolute;
+    margin-bottom: -1300px;
+}
+
+.box1{
+    margin-top: -100px;
+    width: 100%;
+    height: 7vmax;
+    background-color: rgb(242, 68, 114);
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;  
+    
+}
+
+.box01{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    padding: 7px 0px;
+}
+
+.box02{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    left: 100%;
+    padding: 7px 0px;
+}
+
+.textAniA{
+        animation: moveleft 10s linear 0s infinite;
+}
+
+@keyframes moveleft{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.box2{
+    margin-top: -150px;
+    width: 100%;
+    height: 7vmax;
+    background-color: rgb(242, 68, 114);
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;  
+}
+
+.box03{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    padding: 7px 0px;
+}
+
+.box04{    
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    right: 100%;
+    padding: 7px 0px;
+}
+
+.textAniB{
+    animation: moveright 10s linear 0s infinite;
+}
+
+@keyframes moveright{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+
+#main3{
+    text-align: center;
+    position: relative;
+    background-image: url(main-3-img.png);
+    width: 100vw;
+    margin-top: 75px;
+    height: 1165px;
+}
+
+#main4{
+    text-align: center;
+    position: relative;
+    background-image: url(main-4-img.png);
+    margin-top: -30px;
+    width: 100vw;
+    height: 1426px;
+}
+
+.box3{
+    width: 100%;
+    height: 7vmax;
+    background-color: rgb(41, 242, 128);
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;  
+}
+
+.box05{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    padding: 7px 0px;
+}
+
+.box06{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    left: 100%;
+    padding: 7px 0px;
+}
+
+.textAniC{
+    animation: moveleft 10s linear 0s infinite;
+}
+
+@keyframes moveleft{
+from{
+    transform: translateX(0%);
+}
+to{
+    transform: translateX(-100%);
+}
+}
+
+#main5{
+    text-align: center;
+    position: relative;
+    background-image: url(main-5-img.png);
+    margin-top: -30px;
+    width: 100vw;
+    height: 1183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.contentbox3{
+    flex: 1;
+    position: absolute;
+}
+
+.card7{
+    height: 394px;
+    width: 394px;
+    padding: 50px;
+    margin-bottom: 10px;
+    float: left;
+
+
+}
+
+.card8{
+    height: 394px;
+    width: 394px;
+    padding: 50px;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+.card9{
+    height: 394px;
+    width: 394px;
+    padding: 50px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.main5text{
+    font-family: 'GmarketSansBold';
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+
+}
+
+
+.box17{
+    justify-content: center;
+    float: left;
+}
+
+.box18{
+    justify-content: center;
+    float: left;
+}
+
+.box19{
+    justify-content: center;
+    float: left;
+}
+
+
+
+.box4{
+    width: 100%;
+    height: 7vmax;
+    background-color: rgb(41, 242, 128);
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;  
+}
+
+.box07{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    padding: 7px 0px;
+}
+
+.box08{
+    width: 100%;
+    position: absolute;  
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 4.5vmax;
+    font-weight: normal;
+    font-style: normal;
+    right: 100%;
+    padding: 7px 0px;
+}
+
+.textAniD{
+    animation: moveright 10s linear 0s infinite;
+}
+
+@keyframes movright{
+from{
+    transform: translateX(0%);
+}
+to{
+    transform: translateX(100%);
+}
+}
+
+.main6{
+    text-align: center;
+    background-image: url(main-last-img.png);
+    width: 100vw;
+    height: 1328px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+
+.contentbox1{
+    flex: 1;
+    position: absolute;
+}
+
+
+.contentbox2{
+    flex: 1;
+    position: absolute;
+    margin-top: 600px;
+}
+
+
+.card1{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    float: left;
+
+}
+
+
+.card2{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+.card3{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.card4{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.card5{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.card6{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+
+
+
+h6{
+
+    font-family: 'GmarketSansMedium';
+    font-size: 30px;
+}
+
+
+.text{
+    text-align: center;
+    font-family: 'GmarketSansBold';
+    word-break: keep-all;
+}
+
+.box4{
+    margin-top: -1200px;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(41, 242, 128);
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+.box5{
+    margin-top: -5px;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(242, 68, 114);
+    border: 5px solid rgb(0, 0, 0);
+    position: absolute;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(242, 68, 114);
+    position: absolute;
+    left: 0;
+    bottom: -7500px;
+    width: 100%;
+	padding: 10px 0;
+	color: black
+}
+.textbox2{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.textbox3{
+    margin-left: 500px;
+    margin-top: -120px;
+    float: left;
+}
+
+h8{
+    font-family: 'GmarketSansLight';
+    font-weight: normal;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px)
+{
+    body{
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    .burger div{
+        background-color: white;
+        width: 45px;
+        height: 5px;
+        margin: 5px;
+        transition: all 0.5s;
+    }
+    
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+    
+    .toggle .line2{
+        opacity: 0;
+    }
+    
+    .toggle .line3{
+        transform: rotate(-45deg) translate(-8px, -6px);
+    }
+    
+    
+    #container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #maincontents{
+        width: 100%;
+        align-items: center;
+    }
+    
+    #header{
+        width: 100vw;
+        height: 50px;
+        background-color: rgb(242, 68, 114);
+        border: 5px solid rgb(0, 0, 0);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    
+    #logo{
+        width: 30.5px;
+        height: 19.5px;
+        margin-left: -700px;
+        margin-bottom: -20px;
+    }
+
+    #menu{
+
+    }
+
+
+    #tent{
+        width: 100%;
+        margin: 0px;
+        background-image: url(oj1.png);
+        background-size: 220%;
+        background-repeat: no-repeat;
+    }
+    
+    #main1{
+        text-align: center;
+        background-image: url(main-image-1.png);
+        background-color: royalblue;
+        position: relative;
+        width: 100vw;
+    }
+    
+    #img1{
+        margin: 100px
+    }
+    
+    h1{
+        font-family: 'GmarketSansBold';
+        font-size: 28px;
+        color: white;
+        word-break: keep-all;
+    
+    }
+    
+    h2{
+        font-family: 'GmarketSansBold';
+        font-size: 50px;
+        color: white;
+    }
+    
+    p{
+        font-family: 'GmarketSansLight';
+        font-weight: normal;
+        font-size: 20px;
+        color: white;
+        line-height: 30px;
+        word-break: keep-all;
+    
+    }
+    
+    h5{
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 50px;
+        color: white;
+        margin-bottom: 100px;
+    }
+    
+    h4{
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 18px;
+        color: black;
+    }
+    
+    
+    #main2{
+        margin-top: 0px;
+        text-align: center;
+        position: relative;
+        background-image: url(main-2-bgimg.jpg);
+        width: 100vw;
+        height: 1532px;
+    
+    }
+    
+    #img2{
+        margin-top: -100px;
+    
+    }
+    
+    
+    .textbox1{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .box15{
+        position: absolute;
+        margin-bottom: -1000px;;
+    
+    }
+    
+    .box16{
+        position: absolute;
+        margin-bottom: -1300px;
+    }
+    
+    .box1{
+        margin-top: -100px;
+        width: 100%;
+        height: 7vmax;
+        background-color: rgb(242, 68, 114);
+        border: 5px solid rgb(0, 0, 0);
+        position: relative;  
+        
+    }
+    
+    .box01{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        padding: 7px 0px;
+    }
+    
+    .box02{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        left: 100%;
+        padding: 7px 0px;
+    }
+    
+    .textAniA{
+            animation: moveleft 10s linear 0s infinite;
+    }
+    
+    @keyframes moveleft{
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+    }
+    
+    .box2{
+        margin-top: -150px;
+        width: 100%;
+        height: 7vmax;
+        background-color: rgb(242, 68, 114);
+        border: 5px solid rgb(0, 0, 0);
+        position: relative;  
+    }
+    
+    .box03{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        padding: 7px 0px;
+    }
+    
+    .box04{    
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        right: 100%;
+        padding: 7px 0px;
+    }
+    
+    .textAniB{
+        animation: moveright 10s linear 0s infinite;
+    }
+    
+    @keyframes moveright{
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(100%);
+        }
+    }
+    
+    
+    #main3{
+        text-align: center;
+        position: relative;
+        background-image: url(main-3-img.png);
+        width: 100vw;
+        margin-top: 75px;
+        height: 1165px;
+    }
+    
+    #main4{
+        text-align: center;
+        position: relative;
+        background-image: url(main-4-img.png);
+        margin-top: -30px;
+        width: 100vw;
+        height: 1426px;
+    }
+    
+    .box3{
+        width: 100%;
+        height: 7vmax;
+        background-color: rgb(41, 242, 128);
+        border: 5px solid rgb(0, 0, 0);
+        position: relative;  
+    }
+    
+    .box05{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        padding: 7px 0px;
+    }
+    
+    .box06{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        left: 100%;
+        padding: 7px 0px;
+    }
+    
+    .textAniC{
+        animation: moveleft 10s linear 0s infinite;
+    }
+    
+    @keyframes moveleft{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    }
+    
+    #main5{
+        text-align: center;
+        position: relative;
+        background-image: url(main-5-img.png);
+        margin-top: -30px;
+        width: 100vw;
+        height: 1183px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: relative;
+    }
+    
+    .contentbox3{
+        flex: 1;
+        position: absolute;
+    }
+    
+    .card7{
+        height: 394px;
+        width: 394px;
+        padding: 50px;
+        margin-bottom: 10px;
+        float: left;
+    
+    
+    }
+    
+    .card8{
+        height: 394px;
+        width: 394px;
+        padding: 50px;
+        margin-bottom: 10px;
+        float: left;
+    
+    }
+    
+    .card9{
+        height: 394px;
+        width: 394px;
+        padding: 50px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+    .main5text{
+        font-family: 'GmarketSansBold';
+        text-align: center;
+        font-size: 30px;
+        line-height: 60px;
+    
+    }
+    
+    
+    .box17{
+        justify-content: center;
+        float: left;
+    }
+    
+    .box18{
+        justify-content: center;
+        float: left;
+    }
+    
+    .box19{
+        justify-content: center;
+        float: left;
+    }
+    
+    
+    
+    .box4{
+        width: 100%;
+        height: 7vmax;
+        background-color: rgb(41, 242, 128);
+        border: 5px solid rgb(0, 0, 0);
+        position: relative;  
+    }
+    
+    .box07{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        padding: 7px 0px;
+    }
+    
+    .box08{
+        width: 100%;
+        position: absolute;  
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 4.5vmax;
+        font-weight: normal;
+        font-style: normal;
+        right: 100%;
+        padding: 7px 0px;
+    }
+    
+    .textAniD{
+        animation: moveright 10s linear 0s infinite;
+    }
+    
+    @keyframes movright{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+    }
+    
+    .main6{
+        text-align: center;
+        background-image: url(main-last-img.png);
+        width: 100vw;
+        height: 1328px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: relative;
+    }
+    
+    
+    .contentbox1{
+        flex: 1;
+        position: absolute;
+    }
+    
+    
+    .contentbox2{
+        flex: 1;
+        position: absolute;
+        margin-top: 600px;
+    }
+    
+    
+    .card1{
+        height: 280px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        justify-content: center;
+        float: left;
+    
+    }
+    
+    
+    .card2{
+        height: 280px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        float: left;
+    
+    }
+    
+    .card3{
+        height: 280px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+    .card4{
+        height: 280px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+    .card5{
+        height: 280px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+    .card6{
+        height: 280px;
+        width: 250px;
+        padding: 5px;
+        margin-bottom: 10px;
+        float: left;
+    
+    }
+    
+    
+    
+    
+    h6{
+    
+        font-family: 'GmarketSansMedium';
+        font-size: 30px;
+    }
+    
+    
+    .text{
+        text-align: center;
+        font-family: 'GmarketSansBold';
+        word-break: keep-all;
+    }
+    
+    .box4{
+        margin-top: -1200px;
+        width: 100vw;
+        height: 100px;
+        background-color: rgb(41, 242, 128);
+        border: 5px solid rgb(0, 0, 0);
+        position: absolute;  
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 50px;
+        font-weight: normal;
+        font-style: normal;
+        
+    }
+    
+    .box5{
+        margin-top: -5px;
+        width: 100vw;
+        height: 100px;
+        background-color: rgb(242, 68, 114);
+        border: 5px solid rgb(0, 0, 0);
+        position: absolute;  
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-family: 'CWDangamAsac-Bold';
+        font-size: 50px;
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    
+    .footer{
+        width: 100vw;
+        height: 200px;
+        background-color: rgb(242, 68, 114);
+        position: absolute;
+        left: 0;
+        bottom: -7500px;
+        width: 100%;
+        padding: 10px 0;
+        color: black
+    }
+    .textbox2{
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    
+    .textbox3{
+        margin-left: 500px;
+        margin-top: -120px;
+        float: left;
+    }
+    
+    h8{
+        font-family: 'GmarketSansLight';
+        font-weight: normal;
+        font-size: 11px;
+    }
+}
